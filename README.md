@@ -64,7 +64,6 @@ Click on Alerts tab (top bar)
 
 View any warning/critical alert messages
 
-Logs:
 
 # Check system logs
 cd /var/log/netdata
