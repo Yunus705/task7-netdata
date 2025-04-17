@@ -20,7 +20,7 @@ docker run -d \
 
 📊 Step 2: Open Netdata Dashboard
 
-Visit: http://your-ec2-public-ip:19999
+Visit: http://localhost:19999
 
 Example: http://13.203.194.210:19999
 
