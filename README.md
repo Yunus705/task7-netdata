@@ -19,7 +19,8 @@ docker run -d \
 ---
 
 📊 Step 2: Open Netdata Dashboard
-Visit: http://<your-ec2-public-ip>:19999
+
+Visit: http://your-ec2-public-ip:19999
 
 Example: http://13.203.194.210:19999
 
@@ -28,7 +29,9 @@ You’ll see a real-time dashboard with over 850+ system metrics.
 ---
 
 📈 Step 3: Monitor These Metrics on Dashboard
+
 🔍 System Metrics Monitored:
+
 CPU Usage
 
 Memory Usage
@@ -40,6 +43,7 @@ Network Traffic
 Docker Container Stats
 
 🧪 Advanced Monitoring:
+
 Navigate to: System → Processes → Apps → CPU/Memory/Disk
 
 Explore:
@@ -53,14 +57,18 @@ Tasks and I/O stats
 ---
 
 🔔 Step 4: Alerts and Logs
+
 Alerts:
+
 Click on Alerts tab (top bar)
 
 View any warning/critical alert messages
 
 Logs:
+
 # Check system logs
 cd /var/log/netdata
+
 ls -l
 
 you will see the all log files
